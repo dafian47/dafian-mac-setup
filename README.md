@@ -1,54 +1,15 @@
-Mac Setup
+# Mac Setup
 ---
 
-Schema Folder Structure
+
+
+# Basic Setup [`starting.sh`]
 
 ```
-.
-├── Applications
-│   └── Chrome\ Apps.localized
-├── Desktop
-├── Documents
-│   ├── Project
-│   ├── Example
-│   ├── Settings
-├── Downloads
-│   ├── Archives
-│   ├── Documents
-│   ├── Images
-├── Library
-├── Movies
-├── Music
-├── OpenSource
-│   ├── android
-│   ├── dart
-│   ├── doc
-│   ├── flutter
-│   ├── golang
-│   ├── ios
-│   ├── java
-│   ├── php
-│   └── sdk
-├── Pictures
-├── Public
-└── Workspace
-    ├── android
-    ├── apache
-    ├── demo
-    ├── doc
-    ├── go
-    ├── ios
-    ├── php
-    └── spring
+$ ./starting.sh
 ```
 
-# Basic Setup
-
-Install [Homebrew](https://brew.sh/)
-
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+Create Directory for Work. Download and install Homebrew.
 
 Update Homebrew Formula
 
@@ -68,7 +29,7 @@ To see if any of your packages need to be updated
 $ brew outdated
 ```
 
-### Xcode
+# Xcode
 
 Download and install it from the App Store or from Apple's website.
 For installing Xcode command line tools run
@@ -77,69 +38,47 @@ For installing Xcode command line tools run
 $ xcode-select --install
 ```
 
-### iTerm
+# Install Apps [`install-apps.sh`]
 
-Official Web [iTerm](https://www.iterm2.com/)
+System installed as :
 
-```
-$ brew cask install iterm2
-```
+- iTerm2 & Zsh
+- Git
+- Java
+- Maven
+- Gradle
+- Go & Glide
 
-To Install Zsh
+Web Setup installed as or alternative install MAMP :
 
-```
-$ brew install zsh zsh-completions
-```
+- PHP 7.1
+- MySQL ( *Coming Soon* )
+- PostgreSQL ( *Coming Soon* )
+- Composer
 
-### Git
+Apps installed as :
 
-```
-$ brew install git
-```
+- Source Tree
+- Termius
+- PostMan
+- Sublime Text
+- Google Chrome
+- Android Studio
+- Intellij Idea CE
+- VS Code
+- VirtualBox
+- Vagrant
 
-Define git user
+Database installed as :
 
-```
-$ git config --global user.name "Mohamad Rizki Dafianto"
-$ git config --global user.email "dafian47@gmail.com"
-```
+- Sequel Pro
 
-### Terminus
-
-Download and install Terminus
-
-
-
-# Java & Android Setup
-
-### Android Studio ( Stable & Preview )
-
-### Intellij IDEA CE
-
-### Java
-
-```
-$ brew cask install java
-```
-
-### Maven
-
-```
-$ brew install maven
-```
-
-### Gradle
-
-```
-$ brew install gradle
-```
-
-
-# Web Setup
+# Configuration Extra
 
 ### Sublime Text
 
 Code editor for HTML/CSS/PHP
+Download and install with Homebrew :
 
 Plugin installed :
 - A File Icon
@@ -190,61 +129,6 @@ My Sublime Text configuration :
 }
 
 ```
-
-### PostMan
-
-Apps for testing REST Api
-
-### MAMP
-
-Download and install MAMP
-
-### Valentina Studio
-
-Download and install Valentina Studio
-
-### Composer
-
-```
-$ brew install composer
-```
-
-### PHP 7
-
-```
-$ brew install php71 php71-mcrypt php71-xdebug
-```
-
-### VirtualBox
-
-```
-$ brew cask install virtualbox
-```
-
-### Vagrant
-
-```
-$ brew cask install vagrant
-```
-
-
-# Go Setup
-
-### Go
-
-```
-$ brew install go
-```
-
-```
-$ brew install glide
-```
-
-### VS Code
-
-IDEA for Go. Download and install.
-Install plugin for Go.
-
 
 # Flutter Setup
 
@@ -314,6 +198,6 @@ $ brew cleanup dart
 
 # Referensi
 
-- [](http://sourabhbajaj.com/mac-setup/)
-- [](https://github.com/nicolashery/mac-dev-setup)
-- [](https://www.dartlang.org/)
+- http://sourabhbajaj.com/mac-setup/
+- https://github.com/nicolashery/mac-dev-setup/
+- https://www.dartlang.org/
