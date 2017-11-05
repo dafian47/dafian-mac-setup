@@ -1,7 +1,7 @@
 # Mac Setup
 ---
 
-
+> Prefer using font Fira Code
 
 # Basic Setup [`starting.sh`]
 
