@@ -28,9 +28,9 @@ brew install maven
 echo "Install Gradle"
 brew install gradle
 
-echo "Install Go & Glide Dependency"
+echo "Install Go & GoVendor Dependency"
 brew install go
-brew install glide
+brew install govendor
 
 #############
 # Web Setup #
@@ -105,8 +105,8 @@ brew cask install android-studio
 echo "Install Intellij Idea CE"
 brew cask install intellij-idea-ce
 
-# IDEA for Go/Golang purpose
-# Have best plugin for writting Go/Golang Programs
+# IDEA for Vue JS purpose
+# Have best plugin for writting Vue JS Programs
 echo "Install VS Code"
 brew cask install vscode
 
@@ -122,7 +122,7 @@ brew cask install vagrant
 # Like XAMP but for MAC
 # Especially with multi PHP Support ( 5.6 and 7.1 )
 echo "Install MAMP"
-brew cask install mamp
+# brew cask install mamp
 
 ###################
 # Database Editor #
